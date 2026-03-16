@@ -28,7 +28,7 @@ def identity_code():
 greet()
 print("Identity Code:", identity_code())
 
-# [CELL 3] LEGB VALIDATION
+# CELL 3] LEGB VALIDATION
 
 global_value = ID_SUM
 
@@ -62,17 +62,6 @@ avg = user_summary(
 
 print("Returned Average:", avg)
 
-
-avg = user_summary(
-    f"{LAST_NAME} Academic Report",
-    SEED_DIGIT * 10,
-    ID_SUM % 100,
-    NAME_LENGTH * 5,
-    id=STUDENT_ID,
-    surname=LAST_NAME
-)
-
-print("Returned Average:", avg)
 
 # [CELL 5] RETURN MECHANISM
 
